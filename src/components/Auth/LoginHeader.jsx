@@ -12,7 +12,7 @@ const LoginHeader = () => (
     </div>
 
     {/* Header móvil - Solo visible en móvil */}
-    <div className="col-12 d-lg-none bg-primary text-white text-center py-2 py-sm-3">
+    <div className="col-12 d-lg-none bg-primary text-white text-center py-4">
       <h2 className="fw-bold mb-2">INAEBA</h2>
       <p className="mb-0 small px-3">Sistema de Administración Educativa</p>
     </div>
