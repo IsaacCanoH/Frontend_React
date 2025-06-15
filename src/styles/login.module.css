@@ -72,3 +72,21 @@
     padding-bottom: 1rem !important;
   }
 }
+
+
+@media (max-width: 991.98px) {
+  .header-mobile {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .header-mobile h2 {
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .header-mobile p {
+    font-size: 0.75rem;
+    margin: 0;
+  }
+}

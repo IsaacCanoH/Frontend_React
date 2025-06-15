@@ -45,7 +45,7 @@ const LoginPage = () => {
 
 
   return (
-    <div className="container-fluid p-0 ">
+    <div className="container-fluid p-0 min-vh-100">
       <div className="row g-0 min-vh-100">
         <LoginHeader />
         <div className="col-lg-7 col-12 d-flex align-items-center justify-content-center py-4 py-lg-0">

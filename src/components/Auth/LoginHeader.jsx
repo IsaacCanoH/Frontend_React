@@ -1,3 +1,5 @@
+import "../../styles/login.module.css"
+
 const LoginHeader = () => (
   <>
     {/* Sección izquierda con título - Solo visible en desktop */}
@@ -12,8 +14,8 @@ const LoginHeader = () => (
     </div>
 
     {/* Header móvil - Solo visible en móvil */}
-    <div className="col-12 d-lg-none bg-primary text-white text-center py-2">
-      <h2 className="h5 fw-bold mb-1">INAEBA</h2>
+    <div className="col-12 d-lg-none bg-primary text-white text-center py-2 header-mobile">
+      <h2 className="h6 fw-bold mb-1">INAEBA</h2>
       <p className="mb-0 text-white-50 small">Sistema de Administración Educativa</p>
     </div>
   </>
