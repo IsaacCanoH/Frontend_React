@@ -1,4 +1,4 @@
-import "../../styles/login.module.css"
+import "../../styles/login.module.css";
 
 const LoginHeader = () => (
   <>
@@ -15,8 +15,12 @@ const LoginHeader = () => (
 
     {/* Header móvil - Solo visible en móvil */}
     <div className="col-12 d-lg-none bg-primary text-white text-center py-2 header-mobile">
-      <h2 className="h6 fw-bold mb-1">INAEBA</h2>
-      <p className="mb-0 text-white-50 small">Sistema de Administración Educativa</p>
+      <h2 className="fw-bold mb-1" style={{ fontSize: "1.25rem" }}>
+        INAEBA
+      </h2>
+      <p className="mb-0 px-3" style={{ fontSize: "0.8rem" }}>
+        Sistema de Administración Educativa
+      </p>
     </div>
   </>
 )
